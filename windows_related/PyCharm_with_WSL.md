@@ -1,23 +1,23 @@
 # PyCharm on Windows 10 with interpreter from the Linux subsystem (WSL)
 
-* **[Step 1 Install WSL](#step-1-snstall-wsl)**
-* **[Step 2: Setup GUI env](#Step-2:-Setup-GUI-env)**
-* **[Step 3: Install PyCharm](#Step-3:-Install-PyCharm)**
-* **[Step 4: Create connection](#Step-4:-Create-connection)**
+* **[Install WSL](#isnstall-wsl)**
+* **[Setup GUI env](#setup-gui-env)**
+* **[SInstall PyCharm](#install-pycharm)**
+* **[Create connection](#create-connection)**
 * **[Configuring remote interpreter via WSL](#configuring-remote-interpreter-via-wsl)**
 
 
-## Step 1 Install WSL
+## Install WSL
 Follow the official [instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-## Step 2: Setup GUI env
+## Setup GUI env
 Install [Xming server](https://sourceforge.net/projects/xming/) to be able to open GUI from bash terminal\
 Then, in the bash terminal do: `echo 'export DISPLAY=:0.0" >> ~/.bashrc`
 
-## Step 3: Install PyCharm
+## Install PyCharm
 Follow the official instructions to install [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-## Step 4: Create connection
+## Create connection
 * Open windows `bash` (Run `bash.exe`)
 * Do `sudo apt-get update && sudo apt-get upgrade`
 * Do `sudo nano /etc/ssh/sshd_config` and change the fields `PasswordAuthentication` to `yes`, and `UsePrivilegeSeparation` to `no`. 
@@ -38,7 +38,7 @@ You should see password prompt. If you see it, then your server works correctly.
   Then repeat [step 4](#step4)
   
   
-## Step 5 Configuring remote interpreter via WSL
+## Configuring remote interpreter via WSL
 * Open Pycharm
 * Open the [Settings dialog](https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html), 
 and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/project-interpreter.html) page
