@@ -35,7 +35,7 @@ You should see password prompt. If you see it, then your server works correctly.
   `sudo apt-get remove openssh-client openssh-server`\
   and\
   `sudo apt-get install openssh-client openssh-server`\
-  Then repeat [step 4](#step4)
+  Then repeat [step 4](#create-connection)
   
   
 ## Configuring remote interpreter via WSL
