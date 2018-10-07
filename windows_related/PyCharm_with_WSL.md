@@ -1,11 +1,10 @@
 # PyCharm on Windows 10 with interpreter from the Linux subsystem (WSL)
 
+* **[Step 1 Install WSL](#step-1-snstall-wsl)**
+* **[Step 2: Setup GUI env](#Step-2:-Setup-GUI-env)**
+* **[Step 3: Install PyCharm](#Step-3:-Install-PyCharm)**
+* **[Step 4: Create connection](#Step-4:-Create-connection)**
 * **[Configuring remote interpreter via WSL](#configuring-remote-interpreter-via-wsl)**
-- [Step 1 Install WSL](#step-1-snstall-wsl)
-- [Step 2: Setup GUI env](#Step-2:-Setup-GUI-env)
-- [Step 3: Install PyCharm](#Step-3:-Install-PyCharm)
-- [Step 4: Create connection](#Step-4:-Create-connection)
-- [Configuring remote interpreter via WSL](#configuring-remote-interpreter-via-wsl)
 
 
 ## Step 1 Install WSL
