@@ -37,7 +37,7 @@ You should see password prompt. If you see it, then your server works correctly.
   `sudo apt-get install openssh-client openssh-server`\
   Then repeat [step 4](#step4)
   
-## Step 5: Configuring remote interpreter via WSL
+## Step 5 Configuring remote interpreter via WSL
 * Open Pycharm
 * Open the [Settings dialog](https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html), 
 and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/project-interpreter.html) page
