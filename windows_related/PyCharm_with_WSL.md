@@ -44,4 +44,4 @@ and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/proje
 * In this page, click gear icon next to Project Interpreter field, and choose Add
 * In the left-hand pane of the dialog box, `click SSH Interpreter`, then specify server information 
 (host, port, and your username (for Linux)).
-![Like this](link-to-image)
+![Alt text](images/pycharm_SSH_example.png?raw=true)
