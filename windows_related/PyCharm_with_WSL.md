@@ -45,3 +45,10 @@ and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/proje
 * In the left-hand pane of the dialog box, `click SSH Interpreter`, then specify server information 
 (host, port, and your username (for Linux)).
 ![Like This](/images/pycharm_SSH_example.png?raw=true)
+* Click `Next` and select Password or Key pair (OpenSSL or PuTTY). Enter your password or passphrase. Then, click `Next` to proceed with the final configuration step.
+* Specify a path to the remote interpeter. 
+You have to configure the path mappings to let PyCharm know where to look for files inside of WSL. 
+To do that, click the button next to the Sync folders field and enter the path to the local project folder and the path to the folder on the remote server.
+  * For simplicity just open the bash.exe, do `whereis python3` or `whereis python2` (depending on the version that you want), 
+  copy the path and paste it to the interpreter path.
+
