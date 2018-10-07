@@ -4,7 +4,7 @@
 * **[Setup GUI env](#setup-gui-env)**
 * **[SInstall PyCharm](#install-pycharm)**
 * **[Create connection](#create-connection)**
-* **[Step 5: Configuring remote interpreter via WSL](#step-5:-configuring-remote-interpreter-via-wsl)**
+* **[Configuring remote interpreter via WSL](#sconfiguring-remote-interpreter-via-wsl)**
 
 
 ## Install WSL
@@ -38,7 +38,7 @@ You should see password prompt. If you see it, then your server works correctly.
   Then repeat [step 4](#step4)
   
   
-## Step 5: Configuring remote interpreter via WSL
+## Configuring remote interpreter via WSL
 * Open Pycharm
 * Open the [Settings dialog](https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html), 
 and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/project-interpreter.html) page
