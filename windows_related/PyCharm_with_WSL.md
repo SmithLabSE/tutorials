@@ -1,10 +1,10 @@
 # PyCharm on Windows 10 with interpreter from the Linux subsystem (WSL)
 
-* **[Step 1: Install WSL](#step-1:-isnstall-wsl)**
+* **[Install WSL](#isnstall-wsl)**
 * **[Setup GUI env](#setup-gui-env)**
 * **[SInstall PyCharm](#install-pycharm)**
 * **[Create connection](#create-connection)**
-* **[Configuring remote interpreter via WSL](#configuring-remote-interpreter-via-wsl)**
+* **[Step 5: Configuring remote interpreter via WSL](#step-5:-configuring-remote-interpreter-via-wsl)**
 
 
 ## Install WSL
@@ -38,7 +38,7 @@ You should see password prompt. If you see it, then your server works correctly.
   Then repeat [step 4](#step4)
   
   
-## Configuring remote interpreter via WSL
+## Step 5: Configuring remote interpreter via WSL
 * Open Pycharm
 * Open the [Settings dialog](https://www.jetbrains.com/help/pycharm/configuring-project-and-ide-settings.html), 
 and click the [Project Interpreter](https://www.jetbrains.com/help/pycharm/project-interpreter.html) page
