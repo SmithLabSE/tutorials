@@ -4,7 +4,7 @@
 - [Step 2: Setup GUI env](#Step-2:-Setup-GUI-env)
 - [Step 3: Install PyCharm](#Step-3:-Install-PyCharm)
 - [Step 4: Create connection](#Step-4:-Create-connection)
-- [Step 5: Configuring remote interpreter via WSL](#Step-5:-Configuring-remote-interpreter-via-WSL)
+- [Step 5 Configuring remote interpreter via WSL](#Step-5-Configuring-remote-interpreter-via-WSL)
 
 
 ## Step 1 Install WSL
